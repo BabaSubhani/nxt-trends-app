@@ -1,0 +1,112 @@
+.nxt-trends-home-container {
+  background-color: #ffffffff;
+  min-height: 100vh;
+  background-size: cover;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .nxt-app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nxt-trends-home-container {
+    width: 80%;
+  }
+}
+
+.clothes-top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .clothes-top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+    height: 70vh;
+  }
+
+  .lg-clothes-noticed-img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lg-clothes-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lg-clothes-img-container {
+    display: none;
+  }
+}
+
+.clothes-heading {
+  font-family: 'Roboto';
+  width: 80%;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.clothes-noticed-img {
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .clothes-noticed-img {
+    display: none;
+  }
+
+  .clothes-heading {
+    font-family: 'Roboto';
+    width: 80%;
+    text-align: start;
+    font-size: 32px;
+    font-weight: 700;
+  }
+}
+
+.clothes-noticed-description {
+  font-family: 'Roboto';
+  text-align: center;
+  width: 80%;
+  color: #64748b;
+}
+
+.shop-now-btn {
+  color: #ffffffff;
+  background-color: #0b69ff;
+  width: 50%;
+  height: 35px;
+  cursor: pointer;
+  border: 0px solid;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .clothes-noticed-description {
+    font-family: 'Roboto';
+    text-align: start;
+    width: 80%;
+    color: #64748b;
+  }
+
+  .shop-now-btn {
+    color: #ffffffff;
+    background-color: #0b69ff;
+    width: 140px;
+    height: 35px;
+    cursor: pointer;
+    border: 0px solid;
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+}

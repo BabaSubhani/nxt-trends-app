@@ -1,0 +1,147 @@
+.login-bg-container {
+  background-color: #ffffffff;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .login-bg-container {
+    background-color: #ffffffff;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+.login-trends-logo {
+  width: 50%;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-trends-logo {
+    display: none;
+  }
+}
+
+.login-website-img {
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .login-website-img {
+    width: 35%;
+  }
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+@media screen and (max-width: 768px) {
+  .lg-login-trends-logo {
+    display: none;
+  }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .form-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffffff;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .lg-login-trends-logo {
+    width: 50%;
+    margin-bottom: 15px;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+}
+
+.user-name {
+  font-family: 'Roboto';
+  color: #475569;
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+
+.user-input {
+  background-color: #e2e8f0;
+  color: #64748b;
+  padding: 15px;
+  margin-bottom: 5px;
+  border: 0px solid;
+  border-radius: 10px;
+}
+
+.submit-btn {
+  width: 90%;
+  background-color: #0967d2;
+  color: #ffffffff;
+  cursor: pointer;
+  border: 0px solid;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .submit-btn {
+    width: 80%;
+    background-color: #0967d2;
+    color: #ffffffff;
+    cursor: pointer;
+    border: 0px solid;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+  }
+}
+
+.not-found-error {
+  font-family: 'Roboto';
+  color: red;
+  padding-top: 0px;
+  text-align: start;
+  width: 90%;
+  margin-top: 2px;
+}
+
+.required-text {
+  font-family: 'Roboto';
+  color: red;
+  padding-top: 0px;
+  text-align: start;
+
+  margin-top: 2px;
+}
